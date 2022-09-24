@@ -1,0 +1,139 @@
+@media(max-width:1372px) {
+    nav {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-wrap: wrap;
+        height: 81px;
+        position: fixed;
+        z-index: 10;
+    }
+
+}
+
+@media(max-width:970px) {
+
+
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px rgb(248, 237, 237) solid;
+        position: relative;
+        bottom: 500px;
+        transition: .7s ease;
+        z-index: 8;
+  
+        
+    }
+    nav ul li{
+       
+        width:100%;
+    }
+    nav h1 {
+        flex-direction: column;
+
+
+    }
+
+    .together {
+        displaY: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: 100%;
+    }
+
+    .pesquisa {
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 280px;
+        height: 80px;
+        align-items: left;
+        margin-left: 20px;
+        position: relative;
+        bottom: 500px;
+        transition: 1s ease;
+        z-index: 8;
+
+
+    }
+
+    .search {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .foto {
+        align-items: left;
+        display: flex;
+        width: 2
+    }
+
+    .ss {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+    }
+
+    .ss span {
+        display: block;
+        margin-left: 10px;
+
+    }
+
+
+    .menu1 {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        position: relative;
+        left: 20px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        transition: 1s ease;
+
+    }
+
+    .menu2 {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        position: relative;
+        left: 20px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        transition: 1s ease;
+
+    }
+
+    .menu1 img {
+        width: 30px;
+        height: 30px;
+        display: block;
+        transition: 2s ease;
+    }
+
+    .menu2 span {
+        font-size: 35px;
+        color: #747779;
+        margin-top: 5px;
+        display: block;
+        font-weight: bold;
+        position: relative;
+        bottom: 10px;
+        transition: 2s ease;
+
+
+    }
+
+    .show {
+        bottom: 0
+    }
+
+
+}
